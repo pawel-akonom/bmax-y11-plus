@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Mount Google Drive
+Comment=Script for mounting google drives
+Exec=/usr/local/sbin/google-drive-mount.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Phase=WindowManager
+NoDisplay=true

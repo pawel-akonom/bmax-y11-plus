@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tablet Mode Detector
+Comment=Script for detecting tablet mode
+Exec=/usr/local/sbin/tablet-mode-detector.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Phase=WindowManager
+NoDisplay=true
