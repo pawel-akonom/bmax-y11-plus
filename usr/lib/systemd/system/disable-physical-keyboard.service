@@ -1,0 +1,12 @@
+[Unit]
+Description=Disable physical keyboard
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/evtest --grab /dev/input/by-path/platform-i8042-serio-0-event-kbd &> /dev/null
+RestartSec=5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
