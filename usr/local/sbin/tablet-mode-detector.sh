@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x
-
 SCREEN_NAME='eDP-1'
 ACCEL_X_DEVICE='/sys/bus/iio/devices/iio:device0/in_accel_x_raw'
 ACCEL_Y_DEVICE='/sys/bus/iio/devices/iio:device0/in_accel_y_raw'
