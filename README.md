@@ -12,8 +12,8 @@ This section is describing how to autorotate screen with disabling keyboard and 
    ```
 **2. Systemd service**
 
-   copy usr/lib/systemd/system/disable-physical-keyboard.service file to /usr/lib/systemd/system/ directory
-   Reload the service files to include the new service
+   Copy usr/lib/systemd/system/disable-physical-keyboard.service file to /usr/lib/systemd/system/ directory.
+   Reload the service files to include the new service.
    ```
    sudo systemctl daemon-reload
    ```
@@ -40,7 +40,7 @@ This section is describing how to automatically mount google drives
    
 **2. Install google-drive-ocamlfuse**
 
-   Copy etc/yum.repos.d/google-drive-ocamlfuse.repo to /etc/yum.repos.d/ directory and install google-drive-ocamlfuse
+   Copy etc/yum.repos.d/google-drive-ocamlfuse.repo file to /etc/yum.repos.d/ directory and install google-drive-ocamlfuse
    ```
    sudo dnf -y install google-drive-ocamlfuse
    ```
@@ -54,8 +54,8 @@ This section is describing how to automatically mount google drives
 
 **4. Script**
 
-   Copy usr/local/sbin/google-drive-mount.sh to /usr/local/sbin/ directory. Change scripts permissions to executable.
+   Copy usr/local/sbin/google-drive-mount.sh file to /usr/local/sbin/ directory. Change scripts permissions to executable.
 
 **5. Autostart**
 
-   Copy etc/xdg/autostart/google-drive-ocamlfuse.desktop to /etc/xdg/autostart/ directory
+   Copy etc/xdg/autostart/google-drive-ocamlfuse.desktop file to /etc/xdg/autostart/ directory
