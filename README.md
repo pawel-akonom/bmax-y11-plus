@@ -36,7 +36,7 @@ This section is describing how to automatically mount google drives
 
 **1. Create directories for mounting google drives**
 
-   Create directories using covention /mnt/gdrive/<google account name>
+   Create directories using covention /mnt/gdrive/\<google account name\>
    
 **2. Install google-drive-ocamlfuse**
 
