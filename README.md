@@ -9,7 +9,7 @@ This section is describing how to autorotate screen with disabling keyboard and 
    sudo dnf install evtest
    ```
 2. Systemd service
-   copy usr/lib/systemd/system/disable-physical-keyboard.service from the repository to /usr/lib/systemd/system/disable-physical-keyboard.service
+   copy usr/lib/systemd/system/disable-physical-keyboard.service file to /usr/lib/systemd/system/ directory
    Reload the service files to include the new service
    ```
    sudo systemctl daemon-reload
@@ -20,7 +20,7 @@ This section is describing how to autorotate screen with disabling keyboard and 
    %wheel	ALL=(ALL)	NOPASSWD: /usr/bin/systemctl start disable-physical-keyboard.service, /usr/bin/systemctl stop disable-physical-keyboard.service
    ```
 4. Scripts
-   copy usr/local/sbin/gnome-randr.py and usr/local/sbin/tablet-mode-detector.sh to /usr/local/sbin directory. Change scripts permissions to executable.
+   copy usr/local/sbin/gnome-randr.py and usr/local/sbin/tablet-mode-detector.sh files to /usr/local/sbin/ directory. Change scripts permissions to executable.
 5. Autostart
    copy etc/xdg/autostart/tablet-mode-detector.desktop file to /etc/xdg/autostart/ directory
 
